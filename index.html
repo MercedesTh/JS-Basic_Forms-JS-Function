@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS-Basic_Forms+JS_Function-Double_1</title>
+    <title>JS-Basic_Forms+JS_Function_1</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -20,8 +20,19 @@
     <form action="" onsubmit="return false">
         <label for="year">Birth Year</label>
         <input type="text" name="year" id="year">
-        <button onclick="age()">Age</button>
+        <button onclick="age()"> Your Age</button>
         <p id="howOld"></p>
+    </form>
+
+    <form action="" onsubmit="return false">
+        <label for="age 1">Age 1</label>
+        <input type="text" name="age 1" id="age1">
+        <label for="age 2">Age 2</label>
+        <input type="text" name="age 2" id="age2">
+        <button onclick="comp()">Compare your age!</button>
+        <p>The difference between both of you:</p>
+        <p id="compResult"></p>
+
     </form>
 
     <script src="assets/js/main.js"></script>
