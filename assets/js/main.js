@@ -25,5 +25,5 @@ let age2 = document.getElementById("age2");
 let result = document.getElementById("result");
 
 function comp() {
-    compResult.innerHTML = age1.value - age2.value;
+    result.innerHTML = age1.value - age2.value;
 }
